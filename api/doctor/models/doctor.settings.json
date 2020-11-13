@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "name": "doctor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "onm": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    },
+    "client": {
+      "model": "client"
+    },
+    "emails": {
+      "collection": "email"
+    },
+    "articles": {
+      "collection": "article"
+    },
+    "phones": {
+      "collection": "phone"
+    },
+    "specialities": {
+      "collection": "speciality"
+    }
+  }
+}

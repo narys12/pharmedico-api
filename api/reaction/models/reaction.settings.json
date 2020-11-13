@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reactions",
+  "info": {
+    "name": "reaction"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "positive": {
+      "type": "integer"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

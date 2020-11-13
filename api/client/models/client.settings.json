@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "client",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "region": {
+      "type": "string"
+    },
+    "commune": {
+      "type": "string"
+    },
+    "logement": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "profil": {
+      "type": "string"
+    },
+    "comments": {
+      "collection": "comment"
+    }
+  }
+}

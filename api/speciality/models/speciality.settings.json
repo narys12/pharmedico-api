@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialities",
+  "info": {
+    "name": "speciality"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

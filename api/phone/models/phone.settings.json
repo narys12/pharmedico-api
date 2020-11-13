@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phones",
+  "info": {
+    "name": "phone"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
