@@ -40,6 +40,9 @@
     },
     "comments": {
       "collection": "comment"
+    },
+    "offer": {
+      "type": "integer"
     }
   }
 }
